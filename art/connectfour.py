@@ -35,10 +35,12 @@ def drawcircle(player, x, y, grid):
   
   grid[x[y]] = player
   
+  return grid
+  
   
 
 
 
 grid = setgrid()
 
-drawcircle("yellow", 0, 0, grid)
+grid = drawcircle("yellow", 0, 0, grid)
