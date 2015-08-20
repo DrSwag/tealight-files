@@ -6,5 +6,5 @@ box(50,50,800,800)
 
 x = 750
 y = 100
-color("white")
+color("red")
 circle(x,y,50)
