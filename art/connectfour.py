@@ -40,20 +40,20 @@ def drawcircle(player, x, y, grid):
   return grid
   
 
-def player_turn(player, grid):
-  column = input(player + " player, it is your turn. What column would you like to play in? ")
-  while column > 7:
-    column = input("That is too high! Choose again. ")
+#def player_turn(player, grid):
+#  column = input(player + " player, it is your turn. What column would you like to play in? ")
+#  while column > 7:
+#    column = input("That is too high! Choose again. ")
   
-  drawcircle(player, column, 0, grid)
-  return grid
+#  drawcircle(player, column, 0, grid)
+#  return grid
 
 
 
 
 
-#grid = drawcircle("yellow", 2, 2, grid)
+grid = drawcircle("yellow", 2, 2, grid)
 
 grid = setgrid()
 
-grid = player_turn("red", grid)
+#rid = player_turn("red", grid)
