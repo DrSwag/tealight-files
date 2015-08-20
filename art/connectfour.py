@@ -46,11 +46,14 @@ def player_turn(player, grid):
     column = input("That is too high! Choose again. ")
   
   drawcircle(player, column, 0, grid)
+  return grid
 
 
 
-#grid = setgrid()
+
 
 #grid = drawcircle("yellow", 2, 2, grid)
 
-player_turn("red")
+grid = setgrid()
+
+grid = player_turn("red", grid)
