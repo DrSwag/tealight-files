@@ -4,7 +4,7 @@ from tealight.art import (color, line, spot, circle, box, image, text, backgroun
 color("blue")
 box(50,50,800,800)
 
-x = 750
-y = 100
+x = 100
+y = 150
 color("red")
 spot(x,y,50)
