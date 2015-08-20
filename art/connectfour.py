@@ -29,4 +29,4 @@ def drawcircle(player, x, y):
     
 setgrid()
 
-drawcircle("red", 1, 1
+drawcircle("red", 1, 1)
