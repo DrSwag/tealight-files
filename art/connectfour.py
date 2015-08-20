@@ -18,8 +18,7 @@ def setgrid():
     x = 125
     y += 80
   
-  a = [0] * 8
-  grid = [a] * 8
+  grid = [[0] * 8] * 8
   
   return grid
 
