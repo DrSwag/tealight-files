@@ -26,8 +26,8 @@ def drawcircle(player, x, y):
   
   spot(x, y, 37.5)
 
-a = ([None] * 8)
-grid = a * 8
+a = [None] * 8
+grid = [a] * 8
 print(grid)
 
 setgrid()
