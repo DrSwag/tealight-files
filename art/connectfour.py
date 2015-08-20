@@ -18,11 +18,11 @@ def setgrid():
     y += 80
 
  
-def drawcircle(redoryellow, x, y):
-  color(redoryellow)
+def drawcircle(player, x, y):
+  color(player)
   
-  x = 125 + (x*80)
-  y = 125 + (x*80)
+  x = 125 #+ (x*80)
+  y = 125 #+ (x*80)
   
   spot(x, y, 37.5)
   
