@@ -42,7 +42,6 @@ def drawcircle(player, x, y, grid):
 
 def player_turn(player, grid):
   
-  window()
   
   column = input(player + " player, it is your turn. What column would you like to play in? ")
   
