@@ -1,5 +1,5 @@
 from tealight.art import (color, line, spot, circle, box, image, text, background)
-import numpy
+import numpy as np
 
 
 color("blue")
@@ -30,9 +30,7 @@ def drawcircle(player, x, y):
   
 def columninitialise():
   
-  for i in range(8):
-    list = 
-    
+  for i in range(8):    
   
     
 setgrid()
