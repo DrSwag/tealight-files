@@ -27,10 +27,10 @@ def drawcircle(player, x, y, grid):
   
   color(player)
   
-  x = 125 + (x*80)
-  y = 125 + (y*80)
+  xloc = 125 + (x*80)
+  yloc = 125 + (y*80)
   
-  spot(x, y, 37.5)
+  spot(xloc, yloc, 37.5)
   
   grid[2][2] = player
   
