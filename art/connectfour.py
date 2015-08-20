@@ -21,8 +21,8 @@ def setgrid():
 def drawcircle(player, x, y):
   color(player)
   
-  x = 125 + (x*80)
-  y = 125 + (y*80)
+  x = 45 + (x*80)
+  y = 45 + (y*80)
   
   spot(x, y, 37.5)
   
