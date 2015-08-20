@@ -28,11 +28,7 @@ def drawcircle(player, x, y):
   spot(x, y, 37.5)
   
   
-def columninitialise():
-  
-  for i in range(8):    
-  
-    
+
 setgrid()
 
 drawcircle("yellow", 1, 1)
