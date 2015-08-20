@@ -2,7 +2,7 @@ from tealight.art import (color, line, spot, circle, box, image, text, backgroun
 
 
 color("blue")
-box(50,50,800,800)
+box(50,50,700,700)
 
 x = 125
 y = 125
