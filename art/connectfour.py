@@ -19,7 +19,7 @@ def setgrid():
 
  
 def drawcircle(color, x, y):
-  color(color)
+  color(str(color))
   
   x = 125 + (x*80)
   y = 125 + (x*80)
@@ -29,4 +29,4 @@ def drawcircle(color, x, y):
     
 setgrid()
 
-drawcircle("red", 4, 3)
+drawcircle(red, 4, 3)
