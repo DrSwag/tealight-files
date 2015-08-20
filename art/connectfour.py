@@ -34,9 +34,9 @@ def drawcircle(player, x, y, grid):
   
   grid[x][y] = player
   
-    for i in range(8):
-      for j in range(8):
-        print grid[i][j]
+  for i in range(8):
+    for j in range(8):
+      print grid[i][j]
   
   return grid
   
