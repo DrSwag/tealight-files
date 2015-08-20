@@ -18,7 +18,7 @@ def setgrid():
     x = 125
     y += 80
   
-  a = [None] * 8
+  a = [0] * 8
   grid = [a] * 8
   
   return grid
@@ -33,7 +33,7 @@ def drawcircle(player, x, y, grid):
   
   spot(x, y, 37.5)
   
-  grid[1[1]] = None
+  grid[1[1]] = 1
   
   return grid
   
