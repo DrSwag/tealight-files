@@ -20,9 +20,11 @@ def setgrid():
   
   a = [None] * 8
   grid = [a] * 8
+  
+  return grid
 
  
-def drawcircle(player, x, y):
+def drawcircle(player, x, y, grid):
   
   color(player)
   
@@ -37,6 +39,6 @@ def drawcircle(player, x, y):
 
 
 
-setgrid()
+grid = setgrid()
 
-drawcircle("yellow", 0, 0)
+drawcircle("yellow", 0, 0, grid)
