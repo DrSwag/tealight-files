@@ -10,5 +10,5 @@ color("white")
 
 for i in range(8):
   for j in range(8):
-    spot(x,y,50)
-    x += 125
+    spot(x,y,37.5)
+    x += 100
