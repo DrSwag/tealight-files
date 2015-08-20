@@ -27,6 +27,7 @@ def drawcircle(player, x, y):
   spot(x, y, 37.5)
   
 grid = ([0,0,0], [0,0,0], [0,0,0])
+print(grid)
 
 setgrid()
 
