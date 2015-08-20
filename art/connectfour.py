@@ -32,7 +32,7 @@ def drawcircle(player, x, y, grid):
   
   spot(x, y, 37.5)
   
-  grid[x][y] = player
+  grid[2][2] = player
   
   for i in range(8):
     print grid[i]
