@@ -36,7 +36,7 @@ def drawcircle(player, x, y, grid):
   
     for i in range(len(grid)):
       for j in range(len(grid[i])):
-        print myArray[i][j]
+        print grid[i][j]
   
   return grid
   
