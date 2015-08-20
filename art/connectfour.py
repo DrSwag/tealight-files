@@ -50,10 +50,10 @@ def drawcircle(player, x, y, grid):
 
 
 
-
+grid = setgrid()
 
 grid = drawcircle("yellow", 2, 2, grid)
 
-grid = setgrid()
+
 
 #rid = player_turn("red", grid)
