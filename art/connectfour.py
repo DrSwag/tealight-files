@@ -16,5 +16,17 @@ def setgrid():
       x += 80
     x = 125
     y += 80
+
+ 
+def drawcircle(color, x, y):
+  color(color)
+  
+  x = 125 + (x*80)
+  y = 125 + (x*80)
+  
+  spot(x, y, 37.5)
+  
     
 setgrid()
+
+drawcircle("red", 4, 3)
