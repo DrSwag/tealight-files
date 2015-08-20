@@ -6,5 +6,9 @@ box(50,50,800,800)
 
 x = 125
 y = 125
-color("red")
-spot(x,y,50)
+color("white")
+
+for i in range(8):
+  for j in range(8):
+    spot(x,y,50)
+    x += 50
