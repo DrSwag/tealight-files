@@ -44,4 +44,4 @@ def drawcircle(player, x, y, grid):
 
 grid = setgrid()
 
-grid = drawcircle("yellow", 8, 0, grid)
+grid = drawcircle("yellow", 0, 7, grid)
