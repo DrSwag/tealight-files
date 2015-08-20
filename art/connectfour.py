@@ -6,6 +6,7 @@ box(50,50,725,725)
 
 
 def setgrid():
+  
   x = 125
   y = 125
   color("white")
@@ -16,20 +17,24 @@ def setgrid():
       x += 80
     x = 125
     y += 80
+  
+  a = [None] * 8
+  grid = [a] * 8
 
  
 def drawcircle(player, x, y):
+  
   color(player)
   
-  x = 45 + (x*80)
-  y = 45 + (y*80)
+  x = 125 + (x*80)
+  y = 125 + (y*80)
   
   spot(x, y, 37.5)
+  
+  
 
-a = [None] * 8
-grid = [a] * 8
-print(grid)
+
 
 setgrid()
 
-drawcircle("yellow", 1, 1)
+drawcircle("yellow", 0, 0)
