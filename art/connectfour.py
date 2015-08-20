@@ -1,4 +1,5 @@
 from tealight.art import (color, line, spot, circle, box, image, text, background)
+import numpy
 
 
 color("blue")
@@ -25,6 +26,13 @@ def drawcircle(player, x, y):
   y = 45 + (y*80)
   
   spot(x, y, 37.5)
+  
+  
+def columninitialise():
+  
+  for i in range(8):
+    list = 
+    
   
     
 setgrid()
